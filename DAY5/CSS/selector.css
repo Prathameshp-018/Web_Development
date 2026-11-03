@@ -1,0 +1,25 @@
+
+/* ID Selector */
+#ab {
+    color: orange;
+}
+
+.c1{
+    font-style: italic;
+}
+
+/* Element Selector */
+p{
+    font-size: 60px;
+}
+
+
+/* Grouping Selector */
+p,.c1,#ab{
+    background-color: yellow;
+}
+
+/* Universal Selector */
+*{
+    background: linear-gradient(purple,black);
+}
