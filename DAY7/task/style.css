@@ -1,0 +1,45 @@
+section{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    border-radius: 20px;
+}
+img{
+    height: 350px;
+    width: 270;
+    padding: 20px;
+}
+
+div{
+    height: 300;
+    width: 270px;
+    border: 1px solid ;
+    border-radius: 20px;
+    
+}
+span{
+    text-transform: capitalize;
+    
+}
+h3,p{
+    padding-left: 25px;
+}
+button{
+    margin-left: 22px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+
+    color: white;
+    background-color: rgb(107, 58, 58);
+}
+button:hover{
+    color: red;
+}
+body{
+    background-image: url(/sky_blue.jpg);
+    
+}
