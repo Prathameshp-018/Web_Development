@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Application form</h2>
+
+    <form action="#">
+        <label for="name">Name <span style="color: red;">*</span></label>
+        <input type="text" id="name"  required>
+        <br><br>
+
+        <label for="email">Email <span style="color: red;">*</span></label>
+        <input type="email" id="email" required>
+        <br><br>
+
+        <label for="pwd">Password <span style="color: red;">*</span></label>
+        <input type="password" id="pwd" required>
+        <br><br>
+
+        <label for="">Age </label>
+        <input type="number">
+        <br><br>
+
+        <label for="">Contact <span style="color: red;">*</span></label>
+        <input type="tel" required>
+        <br><br>
+
+        <label for="address">Address</label>
+        <textarea cols="10" rows="10" id="address"></textarea>
+        <br><br>
+
+        <label for="">DOB</label>
+        <input type="date">
+        <br><br>
+
+        <label for="">Gender</label>
+        <input type="radio" name="gender" value="Male">Male
+        <input type="radio" name="gender" value="Female">Female
+        <br><br>
+
+        <label for="">Course</label>
+        <input type="checkbox" value="JAVA">JAVA
+        <input type="checkbox" value="WEB">WEB
+        <input type="checkbox" value="C">C
+        <input type="checkbox" value="C++">C++
+        <input type="checkbox" value="SQL">SQL
+        <input type="checkbox" value="TESTING">TESTING
+        <input type="checkbox" value="PYTHON">PYTHON
+        <br><br>
+
+        <label for="">Branch</label>
+        <select >
+            <option value="">Select</option>
+            <option value="">Shivaji Nagar</option>
+            <option value="">Pimpri</option>
+            <option value="">Hadpasar</option>
+        </select>
+        <br><br>
+
+        <input type="range" min="10" max="60">
+        <br><br>
+
+        <label for="">Passport_Photo</label>
+        <input type="file">
+
+        <br><br>
+        <button>Submit</button>
+        <button>Reset</button>
+
+    </form>
+    
+</body>
+</html>
