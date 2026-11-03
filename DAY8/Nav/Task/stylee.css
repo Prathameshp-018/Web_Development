@@ -1,0 +1,67 @@
+/* Reset default margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set up the overall body background and typography */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1e1e1e;
+}
+
+/* Style the Navigation Container */
+.navbar {
+    background-color: #111111; /* Dark black background matching the image */
+    display: flex;
+    justify-content: space-between; /* Pushes logo to left, links to right */
+    align-items: center;
+    padding: 15px 40px;
+    height: 60px;
+}
+
+/* Style the Logo text */
+.logo {
+    color: #ff4a00; /* Warm orange color for 'cdnjs' text */
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Color specific to the opening and closing brackets */
+.logo .bracket {
+    color: #8c8c8c; /* Grey brackets */
+}
+
+/* Style the links container */
+.nav-links {
+    display: flex;
+    list-style: none; /* Removes bullet points */
+    align-items: center;
+    gap: 25px; /* Adds uniform spacing between links */
+}
+
+/* Styling the interactive anchor tags */
+.nav-links a {
+    color: #ffffff; /* Clean white text color */
+    text-decoration: none; /* Removes underline */
+    font-size: 15px;
+    font-weight: 500;
+    transition: color 0.2s ease; /* Smooth transition for hover effect */
+}
+
+/* CSS Hover Property: Changes color when mouse pointer is placed over links */
+.nav-links a:hover {
+    color: #ff4a00; /* Turns orange on hover */
+}
+
+/* Style the active status indicator dot next to 'Status' */
+.status-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    background-color: #2ecc71; /* Vibrant green color */
+    border-radius: 50%; /* Makes it a perfect circle */
+    margin-left: 6px;
+}

@@ -1,0 +1,16 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: black;
+}
+article{
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+}
